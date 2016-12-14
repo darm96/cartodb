@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<!-- Inicio cabeza -->
+	<head>
+
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Mapas Cívico 2016</title>
+		<!-- Leaflet -->
+		<link rel="stylesheet" href="../lib/leaflet/leaflet.css" />
+		<script src="../lib/leaflet/leaflet.js"></script>		
+		<!-- Datos -->
+		<script src="../js/control/data/datos.js"></script>		
+		<!-- CSS Personalizado -->
+		<link rel="stylesheet" href="../css/master/responsive-map.css" />				
+	
+	</head>
+	<!--- Fin cabeza -->
+	<body>
+		<!-- Título -->
+		<h1>Mapas</h1>
+		<!-- Navegador -->
+		<div class="boostrap">
+			<select class="boostrap" onclick="datos(this.value)">
+				<option value="Bogotá">Bogotá</option>	
+				<option value="DF">México</option>
+				<option value="Santiago DC">Santiago DC</option>
+			</select>
+		</div>
+		<br/>
+		<!-- Inicio mostar mapa -->
+		<div class="boostrap" id="map">						
+			<!-- Instancias de mapas -->
+			<script src="../js/instance/map.js"></script>			
+		</div>		
+		<!-- End mostrar mapa -->
+
+		<!-- Scripts secundarios -->
+			<!-- Funciones para estilos -->
+			<script src="../js/styles/bogStyle.js"></script>
+	</body>
+</html>

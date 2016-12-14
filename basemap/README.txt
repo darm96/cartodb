@@ -4,7 +4,7 @@
 				*//
 
 // Lib leaflet
-// Maps positron and other
+// Maps positron and others
 // Data
 // CSS in HTML
 // JS Style and Functions 
